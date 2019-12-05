@@ -1,0 +1,177 @@
+.header {
+  /* min-height: 1080px; */
+  padding-top: 115px;
+  padding-bottom: 340px;
+
+  background-color: #000000;
+  background-image: url("/img/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: cover; */
+
+  &-list__item {}
+
+  &-list__link {}
+
+  &-content__title {
+    letter-spacing: 6px;
+
+    color: #ededed;
+
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  &-content__desc {
+    letter-spacing: 3px;
+
+    color: #ededed;
+
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+}
+
+.wrapper {
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+.header-top {
+  display: flex;
+
+}
+
+.header-logo {
+  margin-right: auto;
+
+  letter-spacing: 3.75px;
+  text-transform: uppercase;
+
+  color: #ededed;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.header-list {
+  display: none;
+  /* display: flex;
+  flex-direction: column; */
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  &__link {
+    display: inline-block;
+
+    margin-bottom: 10px;
+
+    letter-spacing: 2.25px;
+
+    color: #ededed;
+
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &__item:last-child a {
+    margin-bottom: 0;
+  }
+
+}
+
+.header-content {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+
+  padding-top: 385px;
+  &__title {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  &__desc {
+    max-width: 390px;
+    margin: 0;
+    padding: 0;
+
+    text-align: right;
+    letter-spacing: 3px;
+
+    font-size: 24px;
+    line-height: 40px;
+
+    span {
+      letter-spacing: 2.25px;
+
+      font-size: 18px;
+      font-weight: 300;
+      font-style: italic;
+    }
+  }
+
+}
+
+.nav-menu {
+  /* margin-top: -263px; */
+  padding-top: 25px;
+  padding-bottom: 30px;
+
+  background-color: #ffffff;
+  box-shadow: -1px 0px 27px 0px rgba(0, 0, 0, 0.16);
+	&__logo {
+    margin-right: auto;
+
+    letter-spacing: 3.75px;
+    text-transform: uppercase;
+
+    color: #ededed;
+    color: #1c1c1c;
+
+    font-size: 30px;
+    font-weight: 800;
+	}
+  &__layout {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+
+  max-width: 1040px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.menu-list__item {
+ margin-right: 10px;
+
+ &:nth-child(6) {
+   margin-right: 0;
+ }
+}
+
+
+
+.menu-list__link {
+  letter-spacing: 2.25px;
+
+  color: #3b3b3b;
+
+  font-size: 18px;
+  font-weight: 600;
+}

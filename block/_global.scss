@@ -1,0 +1,22 @@
+body {
+  color: #000000;
+  background-color: #ffffff;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}

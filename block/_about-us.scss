@@ -1,0 +1,59 @@
+/* ABOUT US STYLE STARTS */
+
+.about-us {
+  padding-top: 50px;
+  padding-bottom: 65px;
+
+	&__layout {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+	}
+
+	&__title {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+
+    letter-spacing: 3.75px;
+    text-transform: uppercase;
+
+    color: #1d1d1d;
+
+    font-size: 30px;
+    font-weight: 800;
+	}
+
+	&__subtitle {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+
+    letter-spacing: 2.25px;
+
+    color: #3b3b3b;
+
+    font-size: 18px;
+    font-weight: 600;
+	}
+
+	&__img {
+  margin-bottom: 20px;
+	}
+
+	&__content {
+  margin: 0;
+  padding: 0;
+
+  letter-spacing: 1.75px;
+
+  color: #3b3b3b;
+
+  font-size: 14px;
+  font-weight: 600;
+	}
+
+}
+
+
+/* ABOUT US STYLE ENDS */
