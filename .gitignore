@@ -1,0 +1,7 @@
+block/
+scss/
+*.scss
+*.DS_Store
+
+css/style.css
+js/main.js

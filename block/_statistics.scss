@@ -93,4 +93,21 @@
 
 }
 
+@media (max-width: 767px) {
+  .statistics {
+    padding-top: 40px;
+   }
+
+ .statistics__subtitle {
+   margin-bottom: 30px;
+
+   text-align: center;
+ }
+
+ .statistics__list {
+   width: auto;
+  }
+
+}
+
 /* STATISTICS STYLE ENDS */

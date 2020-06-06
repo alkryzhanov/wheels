@@ -17,30 +17,16 @@
 
     font-size: 30px;
     font-weight: 800;
-
   }
 
   &__layout {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
-
-  &-list__item {
-
-  }
-
-  &-list__link {
-
-  }
-
-  &-map__img {
-
-  }
-
 }
 
 .wrapper {
-
 }
 
 .footer-list {
@@ -48,7 +34,8 @@
   padding: 0;
 
   list-style-type: none;
-	&__item {
+
+  &__item {
     margin-bottom: 15px;
 
     letter-spacing: 2.25px;
@@ -56,20 +43,20 @@
 
     font-size: 18px;
     font-weight: 900;
-	}
+  }
 
-	&__link {
-   display: inline-block;
+  &__link {
+    display: inline-block;
 
-   letter-spacing: 2.25px;
-   text-transform: uppercase;
+    letter-spacing: 2.25px;
+    text-transform: uppercase;
 
-   color: #ededed;
+    color: #ededed;
 
-   font-size: 18px;
-   font-weight: 600;
-	}
-  
+    font-size: 18px;
+    font-weight: 600;
+  }
+
   &__link:hover {
     transition: 1s;
 
@@ -83,8 +70,6 @@
   &__item:last-child {
     margin-bottom: 0;
   }
-
-
 }
 
 .social-list {
@@ -98,47 +83,77 @@
 
   list-style-type: none;
 
-	&__item {
-  font-size: 0;
-	}
+  &__item {
+    font-size: 0;
+  }
 
-	&__link {
+  &__link {
     display: inline-block;
 
     background-repeat: no-repeat;
     background-position: center center;
-
-
-	}
+  }
 
   &__link--facebook {
     width: 29px;
     height: 30px;
 
-    background-image: url('../img/facebook.png');
+    background-image: url("../img/facebook.png");
   }
+
   &__link--linkedin {
     width: 30px;
     height: 28px;
 
-    background-image: url('../img/linked-in.png');
+    background-image: url("../img/linked-in.png");
   }
+
   &__link--instagram {
     width: 30px;
     height: 30px;
 
-    background-image: url('../img/instagram.png');
+    background-image: url("../img/instagram.png");
   }
+
   &__link--twitter {
     width: 30px;
     height: 26px;
 
-    background-image: url('../img/twitter.png');
+    background-image: url("../img/twitter.png");
   }
+
   &__link:hover {
     transition: 1s;
 
     opacity: 0.5;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer {
+    &-list {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media (max-width: 408px) {
+  .footer {
+    &__logo {
+      margin-bottom: 75px;
+    }
+
+    &__layout {
+      justify-content: left;
+    }
+  }
+
+  .footer-map__img {
+    margin: 0 auto;
+  }
+
+  .social-list {
+    max-width: none;
   }
 }
 
