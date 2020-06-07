@@ -1,0 +1,153 @@
+
+/* TEAM STYLE STARTS */
+
+.team  {
+	padding-top: 50px;
+	padding-bottom: 60px;
+
+	background-color: #ededed;
+
+	&-list__item {
+
+	}
+
+	&-list__img {
+
+	}
+
+	&-list__name {
+
+	}
+
+	&-list__job-position {
+
+	}
+
+	&-lits__img {
+
+	}
+
+.team-title {
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+
+	text-align: center;
+  letter-spacing: 3.75px;
+	text-transform: uppercase;
+
+  color: #1e1e1e;
+
+	font-size: 30px;
+  font-weight: 800;
+
+}
+
+.team-subtitle {
+	margin: 0;
+	margin-bottom: 55px;
+	padding: 0;
+
+	text-align: center;
+  letter-spacing: 2.25px;
+
+  color: #1e1e1e;
+
+	font-size: 18px;
+  font-weight: 600;
+}
+
+.team-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	max-width: 1344px;
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+
+	&__item {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+		width: 296px;
+		margin-right: 226px;
+
+	}
+
+	&__item:last-child {
+		margin-right: 0;
+
+	}
+
+
+	&__img {
+		margin-bottom: 35px;
+
+		border-radius: 50%;
+	}
+
+	&__name {
+	margin-bottom: 25px;
+
+  letter-spacing: 3.75px;
+	text-transform: uppercase;
+
+  color: #1e1e1e;
+
+	font-size: 30px;
+  font-weight: 800;
+	}
+
+	&__job-position {
+  letter-spacing: 2.25px;
+	text-transform: uppercase;
+
+  color: #1e1e1e;
+
+	font-size: 18px;
+  font-weight: 600;
+	}
+
+}
+
+.section__layout {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+}
+
+@media (max-width: 1374px) {
+
+	.team .team-list__item {
+   margin-right: 0;
+ }
+}
+
+@media (max-width: 922px) {
+
+	.team .team-list__item {
+   margin-bottom: 30px;
+ }
+
+ .team .team-list__item:last-child {
+	margin-bottom: 0;
+}
+
+/* @media (max-width: ) {
+
+	.team .team-list__item {
+   margin-bottom: 30px;
+ }
+
+ .team .team-list__item:last-child {
+	margin-bottom: 0;
+} */
+}
+
+/* TEAM STYLE ENDS */
