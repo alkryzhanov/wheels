@@ -8,11 +8,16 @@
     background-image: url('../img/statisticks-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
+
+    // &__layout {
+    //     display: flex;
+    //     align-items: center;
+    //     flex-direction: column;
+    // }
 
     &__layout {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        text-align: center;
     }
 
     &__title {
@@ -45,17 +50,17 @@
 
     &__list {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 
-        width: 910px;
+        max-width: 910px;
         margin: 0;
+        margin: 0 auto;
         padding: 0;
 
         list-style-type: none;
 
         text-transform: uppercase;
-
-
     }
 
     &__item {
@@ -97,16 +102,29 @@
         padding-top: 40px;
     }
 
+    // .statistics__list {
+    //     width: 710px;
+    // }
+
     .statistics__subtitle {
         margin-bottom: 30px;
 
         text-align: center;
     }
+}
 
+@media(max-width: 421px) {
     .statistics__list {
-        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+}
 
+@media(max-width: 349px) {
+    .statistics__title {
+        font-size: 26px;
+    }
 }
 
 /* STATISTICS STYLE ENDS */
