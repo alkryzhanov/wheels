@@ -121,7 +121,7 @@
   top: 50px;
   right: 0px;
 
-  display: block;
+  display: none;
 
   margin: 0;
   padding: 0;
@@ -159,13 +159,15 @@
   }
 
   &--opened {
+    display: block;
+
     animation: slide-left 0.5s both;
   }
 }
 
 @keyframes slide-left {
   0% {
-    transform: translateX(1000px);
+    transform: translateX(100%);
   }
 
   100% {
